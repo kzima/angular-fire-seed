@@ -19,7 +19,7 @@ angular.module('myApp', [
 /**
  * Manages global states
  */
-.run(function($rootScope, $state, Auth) {
+.run(function($rootScope, $state, $stateParams, Auth) {
 
 	/**
 	 * Checks if route requires authentication and redirects to login if user not logged
@@ -50,7 +50,7 @@ angular.module('myApp', [
 
 	// reference to state and params
 	$rootScope.$state = $state;
-	$rootScope.$state = $state;
+	$rootScope.$stateParams = $stateParams;
 })
 
 /**

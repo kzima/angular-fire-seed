@@ -23,7 +23,7 @@ angular.module('myApp.login', [])
 		$scope.Auth.login($scope.user)
         .then(function(user) {
         	console.log(user);
-          	$scope.state.go('account');
+          	$scope.$state.go('account');
         }, function(err) {
           $scope.err = err;
         });

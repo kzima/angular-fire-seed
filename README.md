@@ -3,6 +3,14 @@
 This project is a simplified version of Firebase seed, but with addition of angular ui router.
 It is using own Auth service to work with simple login service provided by Firebase.
 
+### Demo
+
+You can test it out of the box on your local machine using this credentials: 
+username: test@test.com
+password: test
+
+Demo url coming soon...
+
 ### Clone 
 
 Clone the angular-seed repository using [git][git]:
