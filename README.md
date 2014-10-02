@@ -1,7 +1,7 @@
 # angular-seed + Angular Fire + UI Router
 
-This project is a simplified version of Angular and Firebase seed, but with addition of angular ui router.
-It is using own Aut service to work with simple login service provided by Firebase.
+This project is a simplified version of Firebase seed, but with addition of angular ui router.
+It is using own Auth service to work with simple login service provided by Firebase.
 
 ### Clone 
 
